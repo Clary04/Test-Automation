@@ -178,7 +178,4 @@ class CalculatorTest {
 			Thread.sleep(300);
 		}
 	}
-	
-	
-
 }
