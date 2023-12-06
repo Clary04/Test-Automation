@@ -154,6 +154,8 @@ class CalculatorTest {
 			driver.findElement(By.xpath("//*[@id=\"c_calc\"]/table[1]/tbody/tr/td[2]")).click();
 			Thread.sleep(300);
 		}
+		
+		Teste com falha a ser analisada
 	}*/
 	
 	@Test
