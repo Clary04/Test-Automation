@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <procedure num="0" description="Teste de adição">
+      <case num="0" description="Adição de números positivos">
+         <number1>10</number1>
+         <number2>5</number2>
+         <result>15</result>
+      </case>
+      <case num="1" description="Adição de números negativos">
+         <number1>-8</number1>
+         <number2>-2</number2>
+         <result>-10</result>
+      </case>
+      <case num="2" description="Adição de números positivo e negativo">
+         <number1>20</number1>
+         <number2>-8</number2>
+         <result>12</result>
+      </case>
+      
+      <case num="3" description="Adição de números decimais">
+         <number1>2.5</number1>
+         <number2>-8.10</number2>
+         <result>-5,6</result>
+      </case>
+      
+      <case num="4" description="Soma de letras">
+         <number1>b</number1>
+         <number2>a</number2>
+         <result>Erro</result>
+      </case>
+      
+      <case num="5" description="Soma de letra com numero">
+         <number1>b</number1>
+         <number2>100</number2>
+         <result>Erro</result>
+      </case>
+   </procedure>
+
+   <procedure num="1" description="Teste de multiplicação">
+      <case num="0" description="Multiplicação de números positivos">
+         <number1>6</number1>
+         <number2>8</number2>
+         <result>48</result>
+      </case>
+      <case num="1" description="Multiplicação de números negativos">
+         <number1>-5</number1>
+         <number2>-3</number2>
+         <result>15</result>
+      </case>
+      <case num="2" description="Multiplicação de número positivo por zero">
+         <number1>7</number1>
+         <number2>0</number2>
+         <result>0</result>
+      </case>
+      
+      <case num="3" description="Multiplicação de número positivo com negativo">
+         <number1>7</number1>
+         <number2>-2</number2>
+         <result>-14</result>
+      </case>
+      
+      <case num="4" description="Multiplicação de números decimais">
+         <number1>7.96</number1>
+         <number2>2.47777</number2>
+         <result>19,7230492</result>
+      </case>
+   </procedure>
+
+   <procedure num="2" description="Teste de divisão">
+      <case num="0" description="Divisão de números positivos">
+         <number1>36</number1>
+         <number2>6</number2>
+         <result>6</result>
+      </case>
+      <case num="1" description="Divisão de números negativos">
+         <number1>-25</number1>
+         <number2>-5</number2>
+         <result>5</result>
+      </case>
+      <case num="2" description="Divisão de número positivo por zero">
+         <number1>10</number1>
+         <number2>0</number2>
+         <result>Infinity</result>
+      </case>
+      
+       <case num="3" description="Divisão de zero por zero">
+         <number1>0</number1>
+         <number2>0</number2>
+         <result>Erro</result>
+      </case>
+      
+      <case num="4" description="Divisão de numeros decimais">
+         <number1>0.22222</number1>
+         <number2>1.85</number2>
+         <result>0,1201189189189189</result>
+      </case>
+   </procedure>
+
+   <procedure num="3" description="Teste de exponenciação">
+      <case num="0" description="Exponenciação de número positivo">
+         <number1>2</number1>
+         <number2>3</number2>
+         <result>8</result>
+      </case>
+      <case num="1" description="Exponenciação de número negativo">
+         <number1>-3</number1>
+         <number2>2</number2>
+         <result>9</result>
+      </case>
+      <case num="2" description="Exponenciação de zero">
+         <number1>0</number1>
+         <number2>5</number2>
+         <result>0</result>
+      </case>
+      
+      <case num="3" description="Exponenciação por número negativo">
+         <number1>5</number1>
+         <number2>-3</number2>
+         <result>0,008</result>
+      </case>
+      
+      <case num="4" description="Exponenciação de número negativo por número negativo">
+         <number1>-5</number1>
+         <number2>-4</number2>
+         <result>0,0016</result>
+      </case>
+      
+   </procedure>
+   
+   <procedure num="4" description="Teste da regra de 3 simples">
+      <case num="0" description="Regra de 3 de números positivos">
+         <number1>30</number1>
+         <number2>10</number2>
+         <number3>5</number3>
+         <result>1,6666666666666667</result>
+      </case>
+      <case num="1" description="Regra de 3 de números negativos">
+         <number1>-25</number1>
+         <number2>-4</number2>
+         <number3>-9</number3>
+         <result>-1,44</result>
+      </case>
+      
+      <case num="2" description="Regra de 3 de numeros positivos com negativos">
+         <number1>15</number1>
+         <number2>-10</number2>
+         <number3>2</number3>
+         <result>-1,3333333333333333</result>
+      </case>
+      
+      <case num="3" description="Regra de 3 de números decimais">
+         <number1>10.8</number1>
+         <number2>7.5</number2>
+         <number3>20.3</number3>
+         <result>14,097222222222221</result>
+      </case>
+      
+       <case num="4" description="Regra de 3 com letras">
+         <number1>h</number1>
+         <number2>a</number2>
+         <number3>20</number3>
+         <result>-</result>
+      </case>
+      
+   </procedure>
+   
+   <procedure num="5" description="Testes dos botões que salvam em memória">
+      <case num="0" description="Operacoes com numeros positivos que deve retornar um numero negativo">
+         <number1>13</number1>
+         <number2>21</number2>
+         <sumResult>34</sumResult>
+         <subtractResult>8</subtractResult>
+      </case>
+      <case num="1" description="Operacoes com numeros positivos que deve retornar um numero positivo">
+         <number1>50</number1>
+         <number2>10</number2>
+         <sumResult>60</sumResult>
+         <subtractResult>-40</subtractResult>
+      </case>
+      <case num="2" description="Operacao com numeros decimais e negativos">
+         <number1>14.39</number1>
+         <number2>-50</number2>
+         <sumResult>-35,61</sumResult>
+         <subtractResult>-64,39</subtractResult>
+      </case>
+      <case num="3" description="Operacoes com 0">
+         <number1>0</number1>
+         <number2>0</number2>
+         <sumResult>0</sumResult>
+         <subtractResult>0</subtractResult>
+      </case>
+      <case num="4" description="Operacoes apenas com numeros decimais">
+         <number1>80.6</number1>
+         <number2>0.5</number2>
+         <sumResult>81,1</sumResult>
+         <subtractResult>-80,1</subtractResult>
+      </case>
+   </procedure>
+  
+</root>
